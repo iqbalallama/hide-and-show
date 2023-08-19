@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.main{
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px white;
+    padding: 50px 40px;
+}
+.same{
+    width: 50%;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.btn{
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    background-color: coral;
+    padding: 15px 10px ;
+    color: white;
+    font-weight: bold;
+}
