@@ -14,6 +14,10 @@ body{
     box-shadow: 5px 5px 5px 5px white;
     padding: 50px 40px;
 }
+.animation{
+    color:coral;
+
+}
 .same{
     width: 50%;
     padding: 15px 10px;
@@ -27,4 +31,16 @@ body{
     padding: 15px 10px ;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+@media screen and (max-width:750px) {
+    .main{
+        width: 90%;
+    }
+    .same{
+        width: 70%;
+    }
+    .btn{
+        width: 70%;
+    }
 }
